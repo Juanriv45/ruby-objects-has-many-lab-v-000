@@ -16,4 +16,7 @@ class Artist
     @songs << song
     song.artist = self
   end
+  def song_count
+    @name.total
+  end
 end
