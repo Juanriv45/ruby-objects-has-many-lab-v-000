@@ -4,7 +4,7 @@ class Post
     @title = title
   end
   def author_name
-    if self.author.name then
+    if self.author then
       self.author.name
     else
       nil
