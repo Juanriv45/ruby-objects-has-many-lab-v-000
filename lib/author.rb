@@ -7,5 +7,8 @@ class Author
   def posts
     @posts
   end
+  def add_post(name)
+    @posts << name
+  end
 
 end
